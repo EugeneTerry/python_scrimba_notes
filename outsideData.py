@@ -3,11 +3,11 @@ print('')
 
 friends = ['John', 'Mike', 'Tracy', 'Lilly', 'Erin']
 
-#print(friends[1],friends[4]) #prints what is in index 1 and 4
-#print(friends[:4])
-#print(len(friends)) #tells how long the list is
-#print(friends.index('John'))
-#print(friends.count('John'))
+# print(friends[1],friends[4]) #prints what is in index 1 and 4
+# print(friends[:4])
+# print(len(friends)) #tells how long the list is
+# print(friends.index('John'))
+# print(friends.count('John'))
 
 cars=[911, 545, 655, 9887,3]
 

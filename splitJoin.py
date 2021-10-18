@@ -38,7 +38,7 @@ print('')
 # # are faster somehow and they do not print duplicates in the set the second 'Eric' will not print
 # my_friends_set = {'Reg','Loretta','Colin','Eric','Graham'}
 # print(friends_set.intersection(my_friends_set)) #who is in both sets?
-# print(friends_set.difference(my_friends_set)) #who is NOT in both?
+# print(friends_set.difference(my_friends_set)) #in friends who is NOT in both? or print(friends - my_friends)
 # print(friends_set.union(my_friends_set))#put both together with no repeats
 
 # empty_list=[]
@@ -69,10 +69,10 @@ print(friends.union(my_friends))
 print(friends.intersection(my_friends))
 
 #4
-print(friends-my_friends)
+print(friends - my_friends) #or (friends.difference(my_friends))
 
 #5
-print((my_friends.difference(friends)).union(friends.difference(my_friends)))
+print((my_friends.difference(friends)).union(friends.difference(my_friends))) #or print(friends ^ my_friends) or print(my_friends.symmetric_difference(friends))
 
 #6
 print(set(cars))
